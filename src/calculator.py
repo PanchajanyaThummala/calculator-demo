@@ -11,3 +11,9 @@ def divide(a, b):
 def is_even(num):
     """Returns True if num is even, else False."""
     return num % 2 == 0
+
+
+def power(base, exponent):
+    """Calculates base raised to the power of exponent."""
+    return base ** exponent
+
