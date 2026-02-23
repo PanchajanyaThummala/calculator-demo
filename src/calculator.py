@@ -11,3 +11,8 @@ def divide(a, b):
 def is_even(num):
     """Returns True if num is even, else False."""
     return num % 2 == 0
+
+
+def multiply(a, b):
+    return a * b
+
