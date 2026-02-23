@@ -16,3 +16,9 @@ def is_even(num):
 def multiply(a, b):
     return a * b
 
+
+
+def subtract(a, b):
+    # Intentional bug: returns addition instead of subtraction
+    return a + b
+
