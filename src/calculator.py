@@ -11,3 +11,11 @@ def divide(a, b):
 def is_even(num):
     """Returns True if num is even, else False."""
     return num % 2 == 0
+
+
+def modulo(a, b):
+    """Returns the remainder of dividing a by b."""
+    if b == 0:
+        raise ValueError("Cannot modulo by zero")
+    return a % b
+
